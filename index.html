@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/aba.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Choose a Movie</title>
+</head>
+<body>
+    <header>
+        <h1>Não sabe o que assistir? Aproveite algumas dicas do nosso site!</h1>
+        <img src="./assets/aleatorio.png" alt="" />
+    </header>
+    <section class="movie">
+        <div class="container">
+            <div class="loader"></div>
+            <div class="loader"></div>
+            <div class="loader"></div>
+        </div>
+    </section>
+
+    <section class="movies-container">
+        <button onclick="goLeft()"> &lt; </button>
+        <div class="carousel"></div>
+        <button onclick="goRight()"> &gt; </button>
+    </section>
+
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
